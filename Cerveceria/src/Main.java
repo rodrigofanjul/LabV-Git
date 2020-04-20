@@ -20,5 +20,7 @@ public class Main {
 		for (BeerConsumer c: consumidores){
 			c.start();
 		}
+
+		
 	}
 }

@@ -9,15 +9,21 @@
 
 ## Bloques synchronized ¿Por que deben serlo?
 
- 1. Los bloques deben ser synchronized para que no los acceda más de un proceso a la misma vez.
- 2. Un recurso compartido es aquel al que tienen acceso distintos procesos y pueden realizar cambios en el mismo.
- 3. Si no se gestiona el acceso se pueden perder datos durante la escritura.
+ - Los bloques deben ser synchronized para que no los acceda más de un proceso a la misma vez.
+ - Un recurso compartido es aquel al que tienen acceso distintos procesos y pueden realizar cambios en el mismo.
+ - Si no se gestiona el acceso se pueden perder datos durante la escritura.
  
 ## Formas de instanciar un Thread
 Se puede instanciar un Thread de las siguientes formas:
+
  1. Mediante la imprementación de la Interfaz Runneable.
+
  `public class BeerConsumer implements Runnable`
+ 
  3. Extendiendo de la clase Thread.
+
  `public class BeerConsumer extends Thread`
+ 
  4. Creando un objeto Thread.
+ 
  `Thread hilo = new Thread();`

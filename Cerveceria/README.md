@@ -20,10 +20,10 @@ Se puede instanciar un Thread de las siguientes formas:
 
  `public class BeerConsumer implements Runnable`
  
- 3. Extendiendo de la clase Thread.
+ 2. Extendiendo de la clase Thread.
 
  `public class BeerConsumer extends Thread`
  
- 4. Creando un objeto Thread.
+ 3. Creando un objeto Thread.
  
  `Thread hilo = new Thread();`

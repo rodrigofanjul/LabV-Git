@@ -13,7 +13,7 @@ import javax.validation.constraints.NotNull;
 @Entity
 @NoArgsConstructor //constructor sin parametros
 @AllArgsConstructor
-@Data
+@Data // getters y setters
 @Builder //permite hacer q los SET devuelvan para encadenarlos y hacer programacion funcional
 public class Person {
 
